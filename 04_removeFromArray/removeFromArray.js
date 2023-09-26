@@ -1,9 +1,10 @@
 const removeFromArray = function(array, remove) {
-    // find the index # of the values in the array to be removed
-    let removeIndex = array.indexOf(remove);
-    // return a new array with those index numbers removed
-    array.splice(removeIndex, 1);
-    return array;
+    for (let i = 1; i < arguments.length; i++) {
+        let removeArgument = arguments(i)
+        let removeIndex = array.indexOf(removeArgument);
+        array.splice(removeIndex, 1);
+        return array;
+    }
     // loop function for each additional argument
 };
 
