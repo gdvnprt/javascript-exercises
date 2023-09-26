@@ -6,7 +6,7 @@ let stringArray = []
 for (let i=0; i < num; i++) {
     stringArray.push(string)
 }
-return stringArray.join()
+return stringArray.join("")
 };
 
 // Do not edit below this line
