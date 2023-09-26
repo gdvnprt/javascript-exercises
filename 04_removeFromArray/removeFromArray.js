@@ -1,4 +1,4 @@
-const removeFromArray = function(array, remove) {
+const removeFromArray = function(array, ...remove) {
     // find the index # of the values in the array to be removed
     let removeIndex = array.indexOf(remove);
     // return a new array with those index numbers removed
