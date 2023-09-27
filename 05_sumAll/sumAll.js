@@ -1,9 +1,9 @@
 const sumAll = function(a, b) {
     let newSum = 0
-    for (let i = a; i < b; i++) { // create a loop starting at a
-        let newSum = newSum + i;
-    }
-    return newSum
+    for (let i = a; i < b + 1; i++) { // create a loop starting at a
+        newSum += i;
+    };
+    return newSum;
     // create a new number variable starting at a
     // add each number from a to b in it
     // return the sum of all
