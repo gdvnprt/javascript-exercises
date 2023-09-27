@@ -1,7 +1,7 @@
 const sumAll = function(a, b) {
     let newSum = 0
     for (let i = a; i < b + 1; i++) { // create a loop starting at a
-        newSum += i;
+        newSum += parseInt(i);
     };
     return newSum;
     // create a new number variable starting at a
