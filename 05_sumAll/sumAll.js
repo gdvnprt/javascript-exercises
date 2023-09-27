@@ -1,5 +1,5 @@
 const sumAll = function(a, b) {
-    if (typeof a === "number" && typeof b === "number") {
+    if (typeof a === "number" && typeof b === "number" && a >= 0 && b >= 0) {
         let newSum = 0;
         let sortNumbers = [a, b];
         sortNumbers.sort(function(x, y){return x - y});
