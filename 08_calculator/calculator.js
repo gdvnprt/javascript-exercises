@@ -31,14 +31,14 @@ const power = function(a, b) {
 };
 
 const factorial = function(a) {
-  if a = 0 {
-    return 1
+  if (a === 0) {
+    return 1;
   } else {
 	  let fact = a
     for (var i = a - 1; i > 1; i--) {
       fact *= i;
-    }
-    return fact
+    };
+    return fact;
   };
 };
 
