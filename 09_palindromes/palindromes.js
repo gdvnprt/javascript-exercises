@@ -1,13 +1,7 @@
 const palindromes = function (a) {
     let lower = a.toLowerCase();
     let red = lower.replace(/[,.! ;:'"?_-]/g, "");
-    let letters = red.split('');
-    let palin = letters.reverse();
-    if (palin.join("") === letters.join("")) {
-        return true;
-    } else {
-        return false;
-    };
+    return red.split("").reverse().join("") == red;
 };
 
 // Do not edit below this line
