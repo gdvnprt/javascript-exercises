@@ -3,7 +3,7 @@ const palindromes = function (a) {
     let red = lower.replace(/[,.! ;:'"?_-]/g, "");
     let letters = red.split('');
     let palin = letters.reverse();
-    if (palin === letters) {
+    if (palin.join("") === letters.join("")) {
         return true;
     } else {
         return false;
